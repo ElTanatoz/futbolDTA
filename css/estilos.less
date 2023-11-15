@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a{
+    padding: 0 0.5625rem;
+    text-decoration: none;
+    color: #fff;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+
+    &:hover{
+        color: fade(#b4b8c0, 80%);
+    }
+}
+
+body{
+    font-size: 16px;
+    font-family:'Playfair Display', serif;
+    color: #303133;
+}
+
+header{
+
+    .menu-bar-pc{
+        background: #000;
+        width: 100%;
+        position: fixed;
+        z-index: 99;
+        top: 0;
+        padding: 0 36px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 94px;
+        border-bottom: 1px solid #303133;
+
+        .logo{
+            max-width: 50px;    
+        }
+
+        .menu-principal{
+            a{
+                padding: 0 9px;
+            }            
+        }
+
+        .redes-menu{
+            padding: 0 9px;
+        }
+    }
+}
+
+.main{
+    margin-top: 94px;
+
+    .portada{
+        
+        display: flex;
+        justify-content: space-between;
+        
+
+        .espacio{
+            width: 100%;
+            background: #000;
+            color: #fff;
+            display: flex;
+            flex-direction: row;
+
+            .texto{
+                margin-top: 90px;
+                width: 500px;
+                margin-left: 100px;
+                margin-bottom: 90px;
+                margin-right: 250px;
+            }
+
+            h2{
+                font-size: 42px;
+            }
+
+            p{
+                font-size: 18px;
+            }
+
+            .video{
+                flex-direction: row-reverse;
+                background-size: cover;
+                background-position: center;
+                margin-right: 150px;
+                margin-left: auto;
+                
+            }
+        }
+    }
+}
+
+.partido{
+    padding: 94px;
+    background: #e9e8e8;
+    text-align: center;
+    font-size: 20px;
+
+    .contenedor{
+        margin-right: 10%;
+        margin-left: 10%;
+        display: flex;
+        flex-direction: row;
+
+        img{
+            width: 180px;
+            
+        }
+
+        .col.izq{
+            display: flex;
+            flex-direction: row;
+
+            width: 30%;
+        }
+
+        .col.cent{
+            width: 30%;
+        }
+
+        .col.der{
+            width: 30%;
+        }
+    }
+}
+
+.jugadas{
+    padding: 94px;
+    margin-bottom: 200px;
+    text-align: center;
+
+    .videos.sug{
+  
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+
+
+        img{
+            
+            width: 350px;
+            height: 200px;            
+        }
+        .vid.izq{
+            text-align: center;
+            width: 200px;
+            height: 200px;
+            margin-right: 180px;
+            margin-left: 80px;
+        }
+
+        .vid.cent{
+            
+            width: 200px;
+            height: 200px;
+            margin-right: 180px;
+            margin-left: 180px;
+        }
+
+        .vid.der{
+            width: 200px;
+            height: 200px;
+            margin-right: 200px;
+            margin-left: 180px;
+        }
+    }
+}
+
+footer{
+    margin-top:20   px;
+    width: 100%;
+    height: 100px;
+    background: #000;
+    color: #fff;
+    text-align: center;
+ 
+    
+    p{
+        margin-top: 25px;
+    }
+
+    .boton.redes{
+        margin-top: 25px;
+
+        a{
+            margin-top: 25px;
+            margin-bottom: 25px;
+            padding: 0 0.5625rem;
+			color: #fff;
+			-webkit-transition: all 0.3s ease;
+			-o-transition: all 0.3s ease;
+			transition: all 0.3s ease;
+        }
+    }
+}
